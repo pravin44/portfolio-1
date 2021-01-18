@@ -1,0 +1,248 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pravin R Nair- web Developer</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="style.css">
+    <script src="ext.js" language="javascript"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+    <header>
+        <a href="#" class="logo"><i class="fas fa-ruble-sign fa-2x"></i><i class="far fa-registered"></i><i class="fas fa-signature"></i></a>
+        <div class="toggle" onclick="toggleMenu();"></div>
+        <ul class="menu">
+            <li><a href="#home" onclick="toggleMenu();">Home</a></li>
+            <li><a href="#about" onclick="toggleMenu();">About</a></li>
+            <li><a href="#services" onclick="toggleMenu();">Services</a></li>
+            <li><a href="#work" onclick="toggleMenu();">Work</a></li>
+            <li><a href="#testimonial" onclick="toggleMenu();">Testimonial</a></li>
+            <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
+        </ul>
+    </header>
+
+
+    <section class="banner" id="home">
+        <div class="txtbox">
+            <h2>Hello, I'm <br> <span> Pravin </span>  </h2>
+            <h3>I'm a Full Stack Web Developer.</h3>
+            <a href="#about" class="btn"><button type="button" class="btn btn-primary btn-lg">About Me</button></a>
+        </div>
+        <div class="banner-img">
+          
+            <img class="skills-img" src="https://media0.giphy.com/media/fAcQ7d1Hnx2XlY6SMe/giphy.gif" alt="">
+            
+        </div>
+    </section>
+    
+    <section class="about" id="about">
+        <div class="heading">
+            <p>Get to Know me</p>
+            <h2> <strong>About Me</strong> </h2>
+        </div>
+        <div class="content">
+            <div class="w50">
+                <img src="images/IMG_6759.jpg" alt="" class="proPic">
+            </div>
+            <div class="contentBx w50">
+                <h3>Who am i?</h3> <br>
+                <!-- <h2>I'm <b>R Pravin</b></h2>. -->
+                <p>My aim is to enjoy building a bridge between the imagination/problem and real time effective web app solutions.  </p><br>
+                <p>I am a freelancer from INDIA and intrested in freelance projects as well as any corporate employement. My current skills of creating web apps complies with the latest design trends. I help convert a vision and an idea into meaningful and useful products. Having a sharp eye for product evolution helps me prioritize tasks, iterate fast and deliver faster.</p>
+                <div class="heading bottom">
+                    <a href="images/resume pravin.docx" class="btn round"><button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off">
+                        Download CV
+                      </button> </a>
+                    <div class="bt">
+                        <b>Name:</b> Pravin R Nair<br>
+                        <b>Age:</b> 23
+                    </div>
+                    <div class="bt">
+                        <b>Email:</b> rpravin92@gmail.com<br>
+                        <b>Location:</b> Bengaluru
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="services" id="services">
+        <div class="heading white">
+            <h2>Services</h2>
+            <p>Services i Offer to my Clients</p>
+        </div>
+        <div class="content">
+            <div class="servicesBx">
+                <i class="fa fa-css3 fa-4x"></i>
+                <h3>Web Design CSS</h3> 
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+            <div class="servicesBx">
+                <i class="fa fa-wordpress fa-4x"></i>
+                <h3>Wordpress Developer</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+            <div class="servicesBx">
+                <i class="fa fa-drupal fa-4x"></i>
+                <h3>Reactl Developer</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+            <div class="servicesBx">
+                <i class="fa fa-joomla fa-4x"></i>
+                <h3>React Native Developer</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+            <div class="servicesBx">
+                <i class="fa fa-android fa-4x"></i>
+                <h3>MERN Stack Developer</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+            <div class="servicesBx">
+                <i class="fa fa-cart-arrow-down fa-4x"></i>
+                <h3>E-Commerce Project</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="work" id="work">
+        <div class="heading">
+            <h2>Our Latest Work</h2>
+            <p>Showcasing some of my <b>small projects</b></p>
+        </div>
+        <div class="content">
+           
+            <div class="workBx">
+                <a href="https://pravin44.github.io/tindog/" target="_blank">
+                    <img src="images/tindog.png" alt="">
+                    <p>TINDOG a tinder for our woof-tails</p>
+                </a>
+            </div>
+            <div class="workBx">
+                <a href="https://pravin44.github.io/dice-game/" target="_blank">
+                    <img src="images/dice.png" alt="">
+                    <p>JavaScript mini project</p>
+                </a>
+            </div>
+            <div class="workBx">
+                <a href="https://pravin44.github.io/drumkit-v1/" target="_blank">
+                    <img src="images/drumv1.png" alt="">
+                    <p>Drum-Kit version 1 </p>
+                </a>
+            </div>
+            
+            <div class="workBx">
+                <a href="https://pravin44.github.io/simons-game/" target="_blank">
+                    <img src="images/simon.png" alt="">
+                    <p>JavaScript mini game </p>
+                </a>
+            </div>
+
+            <div class="workBx">
+                <a href="https://pravin44.github.io/drumkit-v2-JavaScript/" target="_blank">
+                    <img src="images/v2drum.png" alt="">
+                    <p>Drum-Kit version 2 Advance JavaScript</p>
+                </a>
+            </div>
+            <div class="workBx">
+                <a href="https://pravin44.github.io/vegan-store/" target="_blank">
+                    <img src="images/vegan.png" alt="">
+                    <p>The Ultimate Vegan Store</p>
+                </a>
+            </div>
+            <div class="heading">
+                <a href="https://github.com/pravin44" target="_blank" class="btn" style="color:#fff;"> <button type="button" class="btn btn-outline-success">Click to see the source codes.</button></a>
+               
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonial" id="testimonial">
+        <div class="heading white">
+            <h2>Testimonial</h2>
+            <p>What my clients think about me</p>
+        </div>
+        <div class="content">
+            <div class="testimonialBx">
+                <p>Pravin did an excellent creative job, addressing our request quickly, and also providing his own graphic insight, being open to feedback and changes or edits when they arose. He worked with us the entire way. Highly recommended.</p>
+                <h3>Richard Wilson<br>Creative Designer</h3>
+            </div>
+            <div class="testimonialBx">
+                <p>I've been Searching for a good Portfolio Website done on html & css. This is definitely the one simple about myself with Responsive Design.  Thanks Pravin</p><h3>Joyce K<br>Web Designer (ghuo)</h3>
+            </div>
+        </div>
+    </section>
+
+    <div id="line-seperator"></div>
+
+    <!-- Creating Contact Layout in HTML -->
+    <section class="contact" id="contact">
+        <div class="heading white">
+            <p>Feel free to contact me anytimes</p>
+            <h2>Get in Touch</h2>
+        </div>
+        <div class="content">
+            <div class="contactInfo">
+                <h3>Contact Info</h3>
+                <p>Always available for freelance work if the right project<br> comes along, Feel free to contact me!</p>
+                <div class="contactInfoBx">
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-map-marker"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Address</h3>
+                            <p>House No - c17,<br>acc employees colony<br>kurud(490024),bhilai<br>C.G.</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-phone"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Phone no :</h3>
+                            <p>+91-7999432816</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-envelope-o"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Email Address</h3>
+                            <p>rpravin92@gmail.com</p>
+                        </div>
+                    </div>
+                    <br>
+                    <h3>Social Connect</h3>
+                    <a class="btn" href="mailto:rpravin92@gmail.com"><i class="fas fa-envelope " ></i> </a> 
+    <a class="footer-link" href="https://www.linkedin.com/in/r-pravin-nair-04/"><i class="fab fa-linkedin-in "></i> </a> 
+    <a class="footer-link" href="https://www.instagram.com/04braveheart/"><i class="fab fa-instagram "></i> </a> 
+    <a class="footer-link" href="https://github.com/pravin44/cv"> <i class="fab fa-github "></i> </a><br>
+    
+                </div>
+            </div>
+            <div class="formBx">
+                <form>
+                    <h3>Message Me</h3>
+                    <input type="text" placeholder="Full Name" name="">
+                    <input type="email" placeholder="Email" name="">
+                    <textarea name="" rows="6" id="" placeholder="Your Message"></textarea>
+                    <input type="submit" value="Send Message" name="">
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer class="copyright">
+     
+        <p>© Copyright 2020 Pravin R Nair @ the Utopian Web</p>
+
+    </footer>
+</body>
+</html>
